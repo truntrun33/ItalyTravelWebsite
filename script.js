@@ -8,3 +8,7 @@ menuOpenButton.addEventListener("click", ()=>{
 
 // close menu when the close button is clicked
 menuCloseButton.addEventListener("click", ()=>menuOpenButton.click());
+
+
+// https://www.youtube.com/watch?v=MYFgtnKMDp4 
+// 23:09
