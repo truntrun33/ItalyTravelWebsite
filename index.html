@@ -9,14 +9,18 @@
         <meta name="author" content="Ting Wen, Liu">
         <title>Travel with me in Italy, from Rome to Milan</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     </head>
     <body>
+        <!-- Header/Navbar -->
         <header>
             <nav class="navbar section-content">
                 <a href="#" class="nav-logo">
-                    <h2 class="logo-text">🇮🇹 Travel in Italy</h2>
+                    <h2 class="logo-text">🇮🇹 Italy Blog</h2>
                 </a>
                 <ul class="nav-menu">
+                    <button id="menu-close-button" class="fas fa-times">
+                    </button>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Home</a>
                     </li>
@@ -33,7 +37,29 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                 </ul>
+                <button id="menu-open-button" class="fas fa-bars"></button>
+                    
             </nav>
         </header>
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="section-content">
+                    <div class="hero-details">
+                        <h2 class="title"> Holidays in Italy </h2>
+                        <h3 class="subtitle">Visit the Most Historical Country with me</h3>
+                        <p class="description">Rome, Napoli, Pompei, Florence, Pisa, Venice, Milan and more.... </br>Travel around all the best spots with me.</p>
+                        <div class="buttons">
+                            <a href="#" class="button order-now">Order Now</a>
+                            <a href="#" class="button contact-us">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="hero-image-wrapper">
+                        <img src="images/italy-hero.JPG" alt="hero" class="hero-image">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
     </body>
 </html>
