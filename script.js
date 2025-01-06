@@ -12,11 +12,14 @@ menuCloseButton.addEventListener("click", ()=>menuOpenButton.click());
 // Initialize Swiper
 const swiper = new Swiper('.slider-wrapper', {
     loop: true,
+    grabCursor: true,
     spaceBetween: 25,
   
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
+      dynamaicBullets: true
     },
   
     // Navigation arrows
@@ -28,13 +31,13 @@ const swiper = new Swiper('.slider-wrapper', {
     // Responsive breakpoints
     breakpoints: {
         0: {
-            slidesPerView: 1
+          slidesPerView: 1
         },
         768: {
-            slidesPerView: 2
+          slidesPerView: 2
         },
         1024: {
-            slidesPerView: 3
+          slidesPerView: 3
         }
     }
   });
